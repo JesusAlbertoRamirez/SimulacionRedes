@@ -20,3 +20,19 @@ Apr 23 22:24:01.731 HYPERVISOR: exec_cmd: vm get_status R2
 Apr 23 22:24:02.233 HYPERVISOR: exec_cmd: nio create_udp udp-0b096f12-362a-4e63-a3b1-9186c2d7be55 10007 127.0.0.1 10009 
 Apr 23 22:24:02.236 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 1 udp-0b096f12-362a-4e63-a3b1-9186c2d7be55 
 Apr 23 22:24:02.237 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 23 22:57:34.888 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Apr 23 22:57:34.891 VM: VM Ghost created.
+Apr 23 22:57:35.209 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/trivi/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Apr 23 22:57:35.212 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Apr 23 22:57:35.213 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\trivi\GNS3\projects\SimulacionRed-Parte_1\project-files\dynamips\c3725-adventerprisek9-mz124-15.image-128.ghost' 
+Apr 23 22:57:35.246 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Apr 23 22:57:35.481 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Apr 23 22:57:35.482 HYPERVISOR: exec_cmd: vm start Ghost 
+Apr 23 22:57:37.245 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Apr 23 22:57:37.703 VM: VM Ghost shutdown.
+Apr 23 22:57:37.703 VM: VM Ghost destroyed.
+Apr 23 22:57:38.114 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 23 22:57:38.115 HYPERVISOR: exec_cmd: vm set_config R2 configs\i2_startup-config.cfg 
+Apr 23 22:57:38.115 HYPERVISOR: exec_cmd: vm start R2 
+Apr 23 22:58:08.963 HYPERVISOR: exec_cmd: vm extract_config R2 
+Apr 23 22:58:08.983 HYPERVISOR: exec_cmd: vm extract_config R2 
