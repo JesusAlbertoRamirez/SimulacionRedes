@@ -1,0 +1,24 @@
+Apr 23 22:26:28.478 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 23 22:26:28.479 HYPERVISOR: Started on IP = 192.168.0.9, TCP port = 51123.
+Apr 23 22:26:28.948 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 23 22:26:28.948 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\trivi\GNS3\projects\SimulacionRedes-Parte_2\project-files\dynamips 
+Apr 23 22:26:28.948 GENERAL: working_dir=C:\Users\trivi\GNS3\projects\SimulacionRedes-Parte_2\project-files\dynamips
+Apr 23 22:26:28.949 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\trivi\GNS3\projects\SimulacionRedes-Parte_2\project-files\dynamips\e45e1b21-93ae-4029-bdfe-5fdc5301a7f1 
+Apr 23 22:26:28.971 GENERAL: working_dir=C:\Users\trivi\GNS3\projects\SimulacionRedes-Parte_2\project-files\dynamips\e45e1b21-93ae-4029-bdfe-5fdc5301a7f1
+Apr 23 22:26:28.972 HYPERVISOR: exec_cmd: vm create R1 1 c3725 
+Apr 23 22:26:28.973 VM: VM R1 created.
+Apr 23 22:26:28.974 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5035 
+Apr 23 22:26:28.974 HYPERVISOR: exec_cmd: c3725 get_mac_addr R1 
+Apr 23 22:26:28.974 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Apr 23 22:26:28.975 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Apr 23 22:26:28.976 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/trivi/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Apr 23 22:26:28.976 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Apr 23 22:26:28.977 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 23 22:26:28.977 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 NM-1FE-TX 
+Apr 23 22:26:28.978 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5035 
+Apr 23 22:26:30.020 HYPERVISOR: exec_cmd: nio create_udp udp-f9b625d3-8827-4812-b605-6a6053124732 10078 127.0.0.1 10079 
+Apr 23 22:26:30.349 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-f9b625d3-8827-4812-b605-6a6053124732 
+Apr 23 22:26:30.349 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 23 22:26:30.414 HYPERVISOR: exec_cmd: nio create_udp udp-35be0f25-06a8-4368-800d-2963e1dc4052 10082 127.0.0.1 10083 
+Apr 23 22:26:30.425 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 1 udp-35be0f25-06a8-4368-800d-2963e1dc4052 
+Apr 23 22:26:30.426 HYPERVISOR: exec_cmd: vm get_status R1 

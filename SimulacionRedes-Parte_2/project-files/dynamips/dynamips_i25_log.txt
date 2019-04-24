@@ -1,0 +1,12 @@
+Apr 23 22:26:27.991 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 23 22:26:27.993 HYPERVISOR: Started on IP = 192.168.0.9, TCP port = 51120.
+Apr 23 22:26:28.354 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 23 22:26:28.354 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\trivi\GNS3\projects\SimulacionRedes-Parte_2\project-files\dynamips 
+Apr 23 22:26:28.354 GENERAL: working_dir=C:\Users\trivi\GNS3\projects\SimulacionRedes-Parte_2\project-files\dynamips
+Apr 23 22:26:28.355 HYPERVISOR: exec_cmd: nio_bridge create Ethernethub-1 
+Apr 23 22:26:29.833 HYPERVISOR: exec_cmd: nio create_udp udp-5a8bdb5d-5593-49cb-8f01-38ac4cfad84d 10072 192.168.0.9 10073 
+Apr 23 22:26:29.834 HYPERVISOR: exec_cmd: nio_bridge add_nio Ethernethub-1 udp-5a8bdb5d-5593-49cb-8f01-38ac4cfad84d 
+Apr 23 22:26:29.932 HYPERVISOR: exec_cmd: nio create_udp udp-80397ad4-5432-40fd-baff-781170bf55f3 10075 192.168.0.9 10074 
+Apr 23 22:26:29.933 HYPERVISOR: exec_cmd: nio_bridge add_nio Ethernethub-1 udp-80397ad4-5432-40fd-baff-781170bf55f3 
+Apr 23 22:26:31.243 HYPERVISOR: exec_cmd: nio create_udp udp-494d54e7-2376-4739-ace9-f50b63cee9c2 10087 192.168.0.9 10086 
+Apr 23 22:26:31.244 HYPERVISOR: exec_cmd: nio_bridge add_nio Ethernethub-1 udp-494d54e7-2376-4739-ace9-f50b63cee9c2 

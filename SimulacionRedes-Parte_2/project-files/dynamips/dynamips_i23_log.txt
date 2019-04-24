@@ -1,0 +1,22 @@
+Apr 23 22:26:26.694 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 23 22:26:26.696 HYPERVISOR: Started on IP = 192.168.0.9, TCP port = 51108.
+Apr 23 22:26:27.161 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 23 22:26:27.161 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\trivi\GNS3\projects\SimulacionRedes-Parte_2\project-files\dynamips 
+Apr 23 22:26:27.161 GENERAL: working_dir=C:\Users\trivi\GNS3\projects\SimulacionRedes-Parte_2\project-files\dynamips
+Apr 23 22:26:27.162 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\trivi\GNS3\projects\SimulacionRedes-Parte_2\project-files\dynamips\2c75c488-088b-4af3-b16e-6878c90eb86c 
+Apr 23 22:26:27.168 GENERAL: working_dir=C:\Users\trivi\GNS3\projects\SimulacionRedes-Parte_2\project-files\dynamips\2c75c488-088b-4af3-b16e-6878c90eb86c
+Apr 23 22:26:27.168 HYPERVISOR: exec_cmd: vm create R2 2 c3725 
+Apr 23 22:26:27.170 VM: VM R2 created.
+Apr 23 22:26:27.171 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5024 
+Apr 23 22:26:27.171 HYPERVISOR: exec_cmd: c3725 get_mac_addr R2 
+Apr 23 22:26:27.172 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Apr 23 22:26:27.172 HYPERVISOR: exec_cmd: vm set_exec_area R2 64 
+Apr 23 22:26:27.173 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/trivi/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Apr 23 22:26:27.174 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Apr 23 22:26:27.175 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5024 
+Apr 23 22:26:30.439 HYPERVISOR: exec_cmd: nio create_udp udp-06ee1155-920f-41e6-9450-f4feaf0e8273 10084 127.0.0.1 10085 
+Apr 23 22:26:30.831 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-06ee1155-920f-41e6-9450-f4feaf0e8273 
+Apr 23 22:26:30.832 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 23 22:26:31.335 HYPERVISOR: exec_cmd: nio create_udp udp-f38b9b76-a82c-47c2-bdd8-142ace71297f 10094 127.0.0.1 10095 
+Apr 23 22:26:31.338 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 1 udp-f38b9b76-a82c-47c2-bdd8-142ace71297f 
+Apr 23 22:26:31.339 HYPERVISOR: exec_cmd: vm get_status R2 
